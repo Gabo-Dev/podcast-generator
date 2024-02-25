@@ -7,12 +7,12 @@ runs:
 branding:
   icon: "git-branch"
   color: "red"
-inputs: 
-  email: 
-    description: The committer's email address
-    required: true
-    default: ${{ env.EMAIL }}
-  name:
-    description: The committer's name
-    required: true
-    default: ${{ env.NAME }}
+#inputs: 
+ # email: 
+  #  description: The committer's email address
+   # required: true
+    #default: ${{ env.EMAIL }}
+ # name:
+  #  description: The committer's name
+   # required: true
+    #default: ${{ env.NAME }}
